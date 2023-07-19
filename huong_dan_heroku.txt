@@ -1,0 +1,13 @@
+1. Tạo project trên github -> new repository
+2. đưa source lên github -> dùng tortoisegit
+3. đang ky tia khoản heroku
+4. tạo new app, kết nối gibhub, resource tạo database clearDB
+5. Tab setting copy cấu hình kết nối phpmyadmin local
+
+/* Heroku remote server */
+$i++;
+$cfg["Servers"][$i]["host"] = "us-cdbr-east-06.cleardb.net"; //provide hostname
+$cfg["Servers"][$i]["user"] = "ba3d95c947c965"; //user name for your remote server
+$cfg["Servers"][$i]["password"] = "0592f928"; //password
+$cfg["Servers"][$i]["auth_type"] = "config"; // keep it as config
+
