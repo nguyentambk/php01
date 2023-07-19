@@ -1,4 +1,4 @@
 RewriteEngine on
 
-#RewriteRule react/^(.*)\.html react/$1.php [L] 
-RewriteRule index1.html$ react/index1.php [L]
+#RewriteRule ^(.*)\.html $1.php [L] 
+RewriteRule index1.html$ index1.php [L]
